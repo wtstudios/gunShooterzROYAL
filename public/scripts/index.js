@@ -175,16 +175,6 @@ function interpolateCamera() {
   queuedCameraLocation.targetY  = playerData.state.previousPosition.y + playerData.state.force.y * (tickDelay / gameData.lastTickDelay);
 }
 
-function displayFog() {
-  const playerData = gameData.players[permanentID];
-  const currentWeapon = gameData.weapons[playerData.guns[playerData.state.activeWeaponIndex]];
-  push();
-  translate(playerData.state.previousPosition.x + cos(playerData.state.angle) * 500, playerData.state.previousPosition.y + sin(playerData.state.angle) * 500, 0.05);
-  fill("#33333380");
-  arc(0, 0, currentWeapon.view + 9000, currentWeapon.view + 9000, playerData.state.angle + 210, playerData.state.angle + 150);
-  pop();
-}
-
 function displayWorld() {
   if (assetsAreLoaded) {
     mostRecentMS = Date.now();
@@ -199,9 +189,31 @@ function displayWorld() {
     rectMode(CENTER);
     displayBullets();
     displayGuns();
-    displayPlayers();
+    displayPlayers();    displayObstacles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();    displayObstacles();
     displayObstacles();
     displayParticles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
     if(queuedCameraLocation.z != gameData.weapons[gameData.players[permanentID].guns[gameData.players[permanentID].state.activeWeaponIndex]].view + 2000) {
       queuedCameraLocation.z += Math.round((gameData.weapons[gameData.players[permanentID].guns[gameData.players[permanentID].state.activeWeaponIndex]].view + 2000 - queuedCameraLocation.z) / 6)
     }

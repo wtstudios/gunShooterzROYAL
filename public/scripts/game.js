@@ -27,7 +27,7 @@ let socket,
   permanentID,
   mostRecentMS;
 
-socket = io.connect("wss://gunshooterzroyal.onrender.com");
+socket = io.connect("localhost:3000");
 
 function mousePressed() {
   if(assetsAreLoaded && state.includes("ingame") && mouseButton == LEFT) {
