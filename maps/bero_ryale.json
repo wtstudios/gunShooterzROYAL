@@ -1,0 +1,456 @@
+{
+  "config": {
+    "map-name": "dm_dunes",
+    "gamemode": "deathmatch",
+    "ground-colour": "#dabb7f",
+    "ground-image": "/assets/environment/bero_ryale_backing.svg",
+    "background-colour": "#2d74ae",
+    "map-dimensions": {
+      "width": 7915,
+      "height": 7929
+    },
+    "spawns": {
+      "blue": [
+        {
+          "x": 435,
+          "y": 1715,
+          "team": "blue"
+        },
+        {
+          "x": 6815,
+          "y": 1265,
+          "team": "blue"
+        },
+        {
+          "x": 3475,
+          "y": 985,
+          "team": "blue"
+        }
+      ],
+      "red": [
+        {
+          "x": 985,
+          "y": 3400,
+          "team": "red"
+        },
+        {
+          "x": 3815,
+          "y": 6980,
+          "team": "red"
+        },
+        {
+          "x": 7000,
+          "y": 6685,
+          "team": "red"
+        }
+      ]
+    },
+    "loadouts": {
+      "ak47": ["Ak- 47"]
+    },
+    "point": {
+      "position": {
+        "x": -2500,
+        "y": -5000
+      }
+    }
+  },
+  "obstacles": [
+    {
+      "body-data": {
+        "position": {
+          "x": 5000,
+          "y": 7000
+        },
+        "type": "rectangle",
+        "dimensions": {
+          "width": 910,
+          "height": 1790
+        },
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "#5c89d0"
+        }
+      },
+      "display-data": {
+        "src": "/assets/environment/container-blue.svg",
+        "dimensions": {
+          "width": 1000,
+          "height": 1880
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 0
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 600,
+          "y": 1000
+        },
+        "type": "circle",
+        "radius": 230,
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "#a89982"
+        }
+      },
+      "display-data": {
+        "src": "/assets/environment/bigstone.svg",
+        "dimensions": {
+          "width": 500,
+          "height": 500
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 10
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 5000,
+          "y": 3300
+        },
+        "type": "circle",
+        "radius": 230,
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "#a89982"
+        }
+      },
+      "display-data": {
+        "src": "/assets/environment/bigstone.svg",
+        "dimensions": {
+          "width": 500,
+          "height": 500
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 10
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 5500,
+          "y": 3200
+        },
+        "type": "circle",
+        "radius": 120,
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 340,
+          "tag": "#a17756"
+        }
+      },
+      "display-data": {
+        "src": "/assets/environment/tree.svg",
+        "dimensions": {
+          "width": 1000,
+          "height": 1000
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 180
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 2000,
+          "y": 5000
+        },
+        "type": "circle",
+        "radius": 120,
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 340,
+          "tag": "#a17756"
+        }
+      },
+      "display-data": {
+        "src": "/assets/environment/tree.svg",
+        "dimensions": {
+          "width": 1000,
+          "height": 1000
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 180
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 3000, 
+          "y": 4500
+        },
+        "type": "rectangle",
+        "dimensions": {
+          "width": 430,
+          "height": 430
+        },
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "#9a7742"
+        }
+      },
+      "display-data": {
+        "src": "/assets/environment/crate2.svg",
+        "dimensions": {
+          "width": 450,
+          "height": 450
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 90
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 6000, 
+          "y": 2000
+        },
+        "type": "rectangle",
+        "dimensions": {
+          "width": 430,
+          "height": 430
+        },
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "#9a7742"
+        }
+      },
+      "display-data": {
+        "src": "/assets/environment/crate2.svg",
+        "dimensions": {
+          "width": 450,
+          "height": 450
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 90
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 6000, 
+          "y": 6000
+        },
+        "type": "rectangle",
+        "dimensions": {
+          "width": 430,
+          "height": 430
+        },
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "#9a7742"
+        }
+      },
+      "display-data": {
+        "src": "/assets/environment/crate2.svg",
+        "dimensions": {
+          "width": 450,
+          "height": 450
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 90
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": -50,
+          "y": 3964.5
+        },
+        "type": "rectangle",
+        "dimensions": {
+          "width": 110,
+          "height": 7929
+        },
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "none"
+        }
+      },
+      "display-data": {
+        "src": "/assets/misc/blank.svg",
+        "dimensions": {
+          "width": 0,
+          "height": 7929
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 0
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 7965,
+          "y": 3964.5
+        },
+        "type": "rectangle",
+        "dimensions": {
+          "width": 110,
+          "height": 7929
+        },
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "none"
+        }
+      },
+      "display-data": {
+        "src": "/assets/misc/blank.svg",
+        "dimensions": {
+          "width": 0,
+          "height": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 0
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 3957.5,
+          "y": -50
+        },
+        "type": "rectangle",
+        "dimensions": {
+          "width": 7915,
+          "height": 110
+        },
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "none"
+        }
+      },
+      "display-data": {
+        "src": "/assets/misc/blank.svg",
+        "dimensions": {
+          "width": 0,
+          "height": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 0
+        },
+        "layer": 1
+      }
+    },
+    {
+      "body-data": {
+        "position": {
+          "x": 3957.5,
+          "y": 7979
+        },
+        "type": "rectangle",
+        "dimensions": {
+          "width": 7915,
+          "height": 110
+        },
+        "options": {
+          "isStatic": true,
+          "friction": 1,
+          "restitution": 0,
+          "density": 1,
+          "angle": 0,
+          "tag": "none"
+        }
+      },
+      "display-data": {
+        "src": "/assets/misc/blank.svg",
+        "dimensions": {
+          "width": 0,
+          "height": 0
+        },
+        "offset": {
+          "x": 0,
+          "y": 0,
+          "angle": 0
+        },
+        "layer": 1
+      }
+    }
+  ]
+}
