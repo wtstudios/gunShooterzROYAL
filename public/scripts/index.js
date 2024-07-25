@@ -80,8 +80,8 @@ function displayGuns() {
       tickDelay = mostRecentMS - gameData.timeStamp;
       push();
       translate(playerData.state.previousPosition.x + playerData.state.force.x * (tickDelay / gameData.lastTickDelay), playerData.state.previousPosition.y + playerData.state.force.y * (tickDelay / gameData.lastTickDelay));
-      if(gameData.users[i] == permanentID) {
-        rotate(atan2(mouseY - height / 2, mouseX - width / 2) + 90);
+      if(false) {
+        // عبد الله عياد لا يريد شيئاً من هذا
       } else {
         const oldAngleVector = {
           x: Math.cos(playerData.state.previousAngle * Math.PI / 180),
