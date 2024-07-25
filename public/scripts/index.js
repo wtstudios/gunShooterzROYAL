@@ -204,7 +204,7 @@ function displayWorld() {
     displayObstacles();    displayObstacles();
     displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
     displayObstacles();
-    displayObstacles();
+    displayObstacles(); // وهذا يجعل الأجهزة القديمة تعمل بشكل أبطأ
     displayObstacles();
     displayObstacles();
     displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
@@ -213,6 +213,22 @@ function displayWorld() {
     displayObstacles();
     displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
     displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
+
     displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();    displayObstacles();
     if(queuedCameraLocation.z != gameData.weapons[gameData.players[permanentID].guns[gameData.players[permanentID].state.activeWeaponIndex]].view + 2000) {
       queuedCameraLocation.z += Math.round((gameData.weapons[gameData.players[permanentID].guns[gameData.players[permanentID].state.activeWeaponIndex]].view + 2000 - queuedCameraLocation.z) / 6)
