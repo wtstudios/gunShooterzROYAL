@@ -27,11 +27,7 @@ let socket,
   permanentID,
   mostRecentMS;
 
-if(window.location.href.includes("render") || window.location.href.includes("localhost")) {
-  socket = io.connect(window.location.origin);
-} else {
-  socket = io.connect("wss://rekoil-dm-usw.onrender.com");
-}
+socket = io.connect("wss://gunshooterzroyal.onrender.com");
 
 function mousePressed() {
   if(assetsAreLoaded && state.includes("ingame") && mouseButton == LEFT) {
