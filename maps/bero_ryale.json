@@ -319,13 +319,13 @@
     {
       "body-data": {
         "position": {
-          "x": -50,
+          "x": -500,
           "y": 3964.5
         },
         "type": "rectangle",
         "dimensions": {
-          "width": 110,
-          "height": 7929
+          "width": 1000,
+          "height": 10000
         },
         "options": {
           "isStatic": true,
@@ -353,13 +353,13 @@
     {
       "body-data": {
         "position": {
-          "x": 7965,
+          "x": 8415,
           "y": 3964.5
         },
         "type": "rectangle",
         "dimensions": {
-          "width": 110,
-          "height": 7929
+          "width": 1000,
+          "height": 10000
         },
         "options": {
           "isStatic": true,
@@ -388,12 +388,12 @@
       "body-data": {
         "position": {
           "x": 3957.5,
-          "y": -50
+          "y": -500
         },
         "type": "rectangle",
         "dimensions": {
-          "width": 7915,
-          "height": 110
+          "width": 10000,
+          "height": 1000
         },
         "options": {
           "isStatic": true,
@@ -422,12 +422,12 @@
       "body-data": {
         "position": {
           "x": 3957.5,
-          "y": 7979
+          "y": 8429
         },
         "type": "rectangle",
         "dimensions": {
-          "width": 7915,
-          "height": 110
+          "width": 10000,
+          "height": 1000
         },
         "options": {
           "isStatic": true,

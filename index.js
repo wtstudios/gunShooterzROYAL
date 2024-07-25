@@ -40,7 +40,7 @@ let messageLoad = [];
 let ticks = 0,
 lastTime = Date.now();
 
-const tickRate = 50;
+const tickRate = 250;
 
 const Engine = Matter.Engine,
   World = Matter.World,
